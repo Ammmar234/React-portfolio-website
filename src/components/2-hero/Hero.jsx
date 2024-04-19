@@ -4,18 +4,15 @@ const Hero = () => {
     <section className="hero flex">
       <div className="left-section  ">
         <div className="parent-avatar flex">
-          <img src="./me.jpg" className="avatar" alt="" />
+          <img src="./me.png" className="avatar" alt="" />
           <div className="icon-verified"></div>
         </div>
 
         <h1 className="title">
-          Software designer, founder, and amateur astronaut.
+          web developmer & copywriter 
         </h1>
         <p className="sub-title">
-          I’m Ali Hassan, a software designer and entrepreneur based in New York
-          City. I’m the founder and CEO of Planetaria, where we develop
-          technologies that empower regular people to explore space on their own
-          terms.
+          I’m Ammar-Al-Tayyeb , a web developmer since 2022 
         </p>
 
         <div className="all-icons flex">
