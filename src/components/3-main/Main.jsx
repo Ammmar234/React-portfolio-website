@@ -1,5 +1,4 @@
 import "./main.css";
-
 import projects from "../../projects.json";
 import { useState } from "react";
 const Main = () => {
