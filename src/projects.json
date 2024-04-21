@@ -1,0 +1,20 @@
+[
+  {
+    "tittle": "restaurant project",
+    "subtitle": "subtitle ",
+    "imgpath": "./1.jpg",
+    "category": "css",
+    "id": 1,
+    "git-link": "",
+    "preview-link": ""
+  },
+  {
+    "tittle": "second project ",
+    "subtitle": "subtitle ",
+    "imgpath": "./1.jpg",
+    "category": "react",
+    "id": 2,
+    "git-link": "",
+    "preview-link": ""
+  }
+]

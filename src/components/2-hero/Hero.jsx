@@ -1,7 +1,7 @@
 import "./hero.css";
 const Hero = () => {
   return (
-    <section className="hero flex">
+    <section className="hero flex" id = "about">
       <div className="left-section  ">
         <div className="parent-avatar flex">
           <img src="./me.png" className="avatar" alt="" />
@@ -9,10 +9,10 @@ const Hero = () => {
         </div>
 
         <h1 className="title">
-          web developmer & copywriter 
+          web developer & copywriter 
         </h1>
         <p className="sub-title">
-          I’m Ammar-Al-Tayyeb , a web developmer since 2022 
+          I’m Ammar-Al-Tayyeb , a web developer since 2022 
         </p>
 
         <div className="all-icons flex">

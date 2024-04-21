@@ -17,13 +17,14 @@ header.flex {
 
 header.flex nav {
   background-color: var(--bgHeader);
-  padding: 0.77rem 1.6rem;
+  padding: .77rem 1.6rem;
   border-radius: 55px;
   box-shadow: 1px 1px 40px #2323242a;
 }
 
 header ul.flex {
   gap: 16px;
+  text-transform : capitalize;
 }
 
 header ul li a {
@@ -153,5 +154,8 @@ header .fixed ul.modal li a {
 
   header button.menu {
     display: block;
+  }
+  header.flex {
+    padding: 0 1rem;
   }
 }

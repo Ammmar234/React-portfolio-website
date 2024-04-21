@@ -67,3 +67,8 @@ section.hero .all-icons .icon:hover {
 /* ===================================
     2. Right Section ==> animation
 ====================================== */
+@media(max-width:600px){
+  section.hero .right-section {
+    display : none;
+  }
+}

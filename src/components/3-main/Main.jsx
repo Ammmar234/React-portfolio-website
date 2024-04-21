@@ -1,33 +1,64 @@
 import "./main.css";
+
+import projects from "../../projects.json";
+import { useState } from "react";
 const Main = () => {
+  const [active, setActive] = useState("css");
   return (
-    <main className="flex">
-      
+    <main className="flex" id="projects">
       <section className="flex  left-section">
-        <button className="active">all projects</button>
-        <button>HTML & CSS</button>
-        <button>JavaScript</button>
-        <button>React & MUI</button>
-        <button>Node & Express</button>
+        <button
+          className={active === "all" ? "active" : null}
+          onClick={() => {
+            setActive("all");
+          }}
+        >
+          all projects
+        </button>
+        <button
+          className={active === "css" ? "active" : null}
+          onClick={() => {
+            setActive("css");
+          }}
+        >
+          HTML & CSS
+        </button>
+        <button
+          className={active === "js" ? "active" : null}
+          onClick={() => {
+            setActive("js");
+          }}
+        >
+          JavaScript
+        </button>
+        <button
+          className={active === "react" ? "active" : null}
+          onClick={() => {
+            setActive("react");
+          }}
+        >
+          React & MUI
+        </button>
       </section>
 
       <section className=" flex right-section">
-        {["aa", "bb", "cc", 1, 7].map((item) => {
+        {projects.map((item) => {
           return (
-            <article key={item} className="  card">
-              <img width={266} src="./1.jpg" alt="" />
+            <article key={item.id} className="  card">
+              <img width={266} src={item.imgpath} alt="" />
 
               <div style={{ width: "266px" }} className="box">
-                <h1 className="title">Landing Page 2 </h1>
-                <p className="sub-title">
-                  Lorem ipsum dolor sit amet consectetur elit adipisicing . Ex
-                  tempore dolor in, accusantium laudantium accusamus.
-                </p>
+                <h1 className="title"> {item.tittle} </h1>
+                <p className="sub-title">{item.subtitle}</p>
 
                 <div className="flex icons">
                   <div style={{ gap: "11px" }} className="flex">
-                    <div className="icon-link"></div>
-                    <div className="icon-github"></div>
+                    <div className="icon-link">
+                      <a href={item["preview-link"]}></a>
+                    </div>
+                    <div className="icon-github">
+                      <a href={item["git-link"]}></a>
+                    </div>
                   </div>
 
                   <a className="link flex" href="">

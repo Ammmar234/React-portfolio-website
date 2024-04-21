@@ -1,8 +1,8 @@
-import React from "react";
+
 import "./footer.css";
 const Footer = () => {
   return (
-    <footer className="flex">
+    <footer className="flex" id = "footer">
       <ul className="flex">
         <li>
           <a href="">About</a>
@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p>© 2023 Spencer Sharp. All rights reserved.</p>
+      <p>© 2024 Ammar-Al-Tayyeb </p>
     </footer>
   );
 };
