@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   const [showModal, setshowModal] = useState(false);
   return (
-    <header className="  flex">
+    <header className="  flex" id = "header">
       <button onClick={() => {
         setshowModal(true)
       }} className="menu icon-menu flex">    </button>
@@ -65,6 +65,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
+
+
+
       )}
     </header>
   );

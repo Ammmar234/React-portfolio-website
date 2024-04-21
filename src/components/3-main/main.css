@@ -3,8 +3,9 @@
 ===========================
 1. Left Section ==> Buttons
 2. Right Section ==> Card
-3- Responsive Design (media query)*/
+3- Responsive Design (media query)
 
+*/
 main.flex {
   gap: 2.64rem;
   align-items: start;

@@ -1,4 +1,6 @@
 import "./hero.css";
+import Lottie from "lottie-react"
+import done from "../../../public/animation/done.json"
 const Hero = () => {
   return (
     <section className="hero flex" id = "about">
@@ -23,7 +25,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="right-section animation border">animation</div>
+      <div className="right-section animation">
+        <Lottie animationData={done}></Lottie>
+      </div>
     </section>
   );
 };

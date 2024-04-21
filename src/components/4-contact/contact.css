@@ -65,6 +65,13 @@ section.contact-us .submit {
 section.contact-us .submit:hover {
   scale: 0.97;
 }
+.animation  {
+  flex-grow: 1; 
+  translate : 40px -50px ;
+  width : 200px;
+
+}
+
 
 /* =====================================
   3- Responsive Design (media query)
@@ -98,4 +105,9 @@ section.contact-us .submit:hover {
     width: 30%;
     align-self: center;
   }
+}
+@media (max-width: 900px) {
+  .animation {
+    display : none;}
+
 }

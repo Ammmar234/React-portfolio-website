@@ -4,9 +4,6 @@
 1. Left Section
 2. Right Section ==> animation*/
 
-
-
-
 section.hero {
   margin-top: 3rem;
 }
@@ -67,8 +64,12 @@ section.hero .all-icons .icon:hover {
 /* ===================================
     2. Right Section ==> animation
 ====================================== */
-@media(max-width:600px){
+.right-section.animation {
+  width: 200px;
+  translate: 20px 20px;
+}
+@media (max-width: 600px) {
   section.hero .right-section {
-    display : none;
+    display: none;
   }
 }
