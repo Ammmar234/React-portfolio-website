@@ -2,7 +2,8 @@ import "./main.css";
 import projects from "../../projects.json";
 import { useState } from "react";
 const Main = () => {
-  const [active, setActive] = useState("css");
+  const [active, setActive] = useState("all");
+  const [array, setArray] = useState(projects);
   return (
     <main className="flex" id="projects">
       <section className="flex  left-section">
@@ -10,6 +11,7 @@ const Main = () => {
           className={active === "all" ? "active" : null}
           onClick={() => {
             setActive("all");
+            setArray(projects);
           }}
         >
           all projects
@@ -18,6 +20,10 @@ const Main = () => {
           className={active === "css" ? "active" : null}
           onClick={() => {
             setActive("css");
+            const setar = projects.filter((item) => {
+              return item.category === "css";
+            });
+            setArray(setar);
           }}
         >
           HTML & CSS
@@ -26,6 +32,10 @@ const Main = () => {
           className={active === "js" ? "active" : null}
           onClick={() => {
             setActive("js");
+            const setar = projects.filter((item) => {
+              return item.category === "js";
+            });
+            setArray(setar);
           }}
         >
           JavaScript
@@ -34,6 +44,11 @@ const Main = () => {
           className={active === "react" ? "active" : null}
           onClick={() => {
             setActive("react");
+            const setar = projects.filter((item) => {
+              return item.category === "react";
+              
+            });
+            setArray(setar)
           }}
         >
           React & MUI
@@ -41,7 +56,7 @@ const Main = () => {
       </section>
 
       <section className=" flex right-section">
-        {projects.map((item) => {
+        {array.map((item) => {
           return (
             <article key={item.id} className="  card">
               <img width={266} src={item.imgpath} alt="" />
