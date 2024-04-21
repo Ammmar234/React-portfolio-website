@@ -7,8 +7,7 @@ const Contact = () => {
         Contact us
       </h1>
       <p className="sub-title">
-        Contact us for more information and Get notified when I publish
-        something new.
+        Contact us for more information about our services . 
       </p>
 
       <div className="flex">
