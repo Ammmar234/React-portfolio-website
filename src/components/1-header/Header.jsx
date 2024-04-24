@@ -4,10 +4,15 @@ import "./header.css";
 const Header = () => {
   const [showModal, setshowModal] = useState(false);
   return (
-    <header className="  flex" id = "header">
-      <button onClick={() => {
-        setshowModal(true)
-      }} className="menu icon-menu flex">    </button>
+    <header className="  flex" id="header">
+      <button
+        onClick={() => {
+          setshowModal(true);
+        }}
+        className="menu icon-menu flex"
+      >
+        {" "}
+      </button>
       <div />
 
       <nav>
@@ -28,25 +33,23 @@ const Header = () => {
           <li>
             <a href="#footer">footer</a>
           </li>
-          
         </ul>
       </nav>
 
       <button className="mode flex">
-        <span className="icon-moon-o">  </span>
+        <span className="icon-moon-o"> </span>
       </button>
 
       {showModal && (
         <div className="fixed">
           <ul className="modal ">
-            <li >
-              <button className="icon-close" onClick={() => {
-                setshowModal(false)
-              }} />   
-              
-             
-              
-           
+            <li>
+              <button
+                className="icon-close"
+                onClick={() => {
+                  setshowModal(false);
+                }}
+              />
             </li>
             <li>
               <a href="#about">About</a>
@@ -65,9 +68,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-
-
-
       )}
     </header>
   );
