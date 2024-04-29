@@ -5,7 +5,8 @@ import Contact from "./components/4-contact/Contact";
 import Testimonials from "./components/5-testimonials/testimonials.jsx"
 import Footer from "./components/6-footer/Footer";
 
-function App() {
+function App() { 
+  
   return (
     <div id="up" className="container">
       <Header />
