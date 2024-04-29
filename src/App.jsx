@@ -6,7 +6,7 @@ import Testimonials from "./components/5-testimonials/testimonials.jsx"
 import Footer from "./components/6-footer/Footer";
 
 function App() { 
-  
+
   return (
     <div id="up" className="container">
       <Header />
@@ -27,5 +27,5 @@ function App() {
     </div>
   );
 }
-
+  
 export default App;
