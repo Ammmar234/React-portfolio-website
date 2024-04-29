@@ -71,7 +71,10 @@ section.contact-us .submit:hover {
   width : 200px;
 
 }
-
+.sent-animation{
+  width : 50%;
+  margin : 0 auto ;
+}
 
 /* =====================================
   3- Responsive Design (media query)
