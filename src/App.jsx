@@ -20,7 +20,7 @@ function App() {
       <Testimonials />
       <div className="divider"></div>
       <Footer />
-
+  
     <a href="#up">
         <button className="icon-keyboard_arrow_up scroll2Top"></button>
     </a>
