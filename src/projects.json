@@ -11,7 +11,7 @@
   {
     "tittle": "second project ",
     "subtitle": "subtitle ",
-    "imgpath": "./1.jpg",
+    "imgpath": "./weather.jpeg",
     "category": "react",
     "id": 2,
     "git-link": "",

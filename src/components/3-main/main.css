@@ -76,6 +76,8 @@ main section.right-section.flex {
 
 .card img {
   border-radius: 5px;
+  height : 150px;
+  
 }
 
 .card .box {
