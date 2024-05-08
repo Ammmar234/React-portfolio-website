@@ -38,6 +38,8 @@ const Main = () => {
             setArray(setar);
           }}
         >
+           
+
           JavaScript
         </button>
         <button
