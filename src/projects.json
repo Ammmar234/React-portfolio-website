@@ -1,7 +1,7 @@
 [
   {
     "tittle": "restaurant project",
-    "subtitle": "subtitle ",
+    "subtitle": "restaurant web app with html % tailwind css  note : it's not completed",
     "imgpath": "./1.jpg",
     "category": "css",
     "id": 1,
@@ -9,8 +9,8 @@
     "preview-link": ""
   },
   {
-    "tittle": "second project ",
-    "subtitle": "subtitle ",
+    "tittle": "weather web app",
+    "subtitle": "a simple app uses API to get weather ",
     "imgpath": "./weather.jpeg",
     "category": "react",
     "id": 2,

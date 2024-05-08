@@ -2,10 +2,10 @@
 import "./footer.css";
 const Footer = () => {
   return (
-    <footer className="flex" id = "footer">
+    <><footer className="flex" id="footer">
       <ul className="flex">
         <li>
-          <a href ="#header">Header</a>
+          <a href="#header">Header</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -23,6 +23,10 @@ const Footer = () => {
 
       <p>© 2024 Ammar-Al-Tayyeb </p>
     </footer>
+    <br />
+    <p> For scientific integrity, this project is an inspiration from the dev ali Chanel   </p>
+    </>
+
   );
 };
 
